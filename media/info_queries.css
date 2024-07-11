@@ -1,0 +1,474 @@
+@media screen and (min-width:1410px){
+    #info .i-naslov {
+        font-size: 38px;
+    }
+}
+@media screen and (min-width:1617px){
+    #info .i-naslov {
+        font-size: 40px;
+    }
+    
+}
+@media screen and (max-width:1230px){
+    
+    #info .i-naslov {
+        font-size: 32px;
+    }
+}
+@media screen and (max-width:1130px){
+   
+    #info .i-naslov {
+        font-size: 29px;
+    } 
+}
+
+@media screen and (max-width: 975px){
+    #info .i-naslov {
+        font-size: 26px;
+        padding: 5px 0px 5px 36px;
+    }
+    #info .naslov-ikonica:hover::after {
+        right: -30px;
+    }
+}
+@media screen and (max-width:925px) and (min-width: 830px){
+    .icon-text h1 {
+        font-size: 22px;
+    }
+    .teksst h1, .ltekst h1, .Htext h1 {
+        font-size: 21px;
+    }
+    @keyframes animateInfo {
+        0% {
+              height: 0px;
+              overflow: hidden;
+        }
+        100% {
+              height: 693px;
+              overflow: hidden;
+        }
+    }
+    @keyframes animateInfo2 {
+        0% {
+              height: 693px;
+              overflow: hidden;
+        }
+        100% {
+              height: 0px;
+              overflow: hidden;
+        }
+    }
+}
+@media screen and (max-width:829px) and (min-width: 700px){
+    .icon-text h1 {
+        font-size: 19px;
+    }
+    .teksst h1, .ltekst h1, .Htext h1 {
+        font-size: 18px;
+    }
+    .teksst h1{
+        margin: 0 0;
+    }
+    .cg-cg{
+        font-size: 17px !important;
+    }
+    @keyframes animateInfo {
+        0% {
+              height: 0px;
+              overflow: hidden;
+        }
+        100% {
+              height: 677px;
+              overflow: hidden;
+        }
+    }
+    @keyframes animateInfo2 {
+        0% {
+              height: 677px;
+              overflow: hidden;
+        }
+        100% {
+              height: 0px;
+              overflow: hidden;
+        }
+    }
+}
+@media screen and (max-width:699px) and (min-width: 665px){
+    .icon-text h1 {
+        font-size: 18px;
+    }
+    .teksst h1, .ltekst h1, .Htext h1 {
+        font-size: 15px;
+    }
+    .teksst h1{
+        margin: 0 0;
+    }
+    .cg-cg{
+        font-size: 15px !important;
+    }
+    .line, .Lline {
+        margin-top: 4px;
+    }
+    .stars i, .starsI i {
+        font-size: 18px;
+    }
+    @keyframes animateInfo {
+        0% {
+              height: 0px;
+              overflow: hidden;
+        }
+        100% {
+              height: 689px;
+              overflow: hidden;
+        }
+    }
+    @keyframes animateInfo2 {
+        0% {
+              height: 689px;
+              overflow: hidden;
+        }
+        100% {
+              height: 0px;
+              overflow: hidden;
+        }
+    }
+}
+@media screen and (max-width:850px) and (min-width: 665px){
+    #info .i-naslov {
+        font-size: 24px;
+        padding: 5px 0px 5px 30px;
+    }
+    #info .naslov-ikonica:hover::after {
+        right: -26px;
+    }
+}
+@media screen and (max-width:664px){
+    #info {
+        width: 83%;
+    }
+    #info-level {     
+        width: 83%;
+    }
+    #info .i-naslov {
+        font-size: 28px;
+    }
+    #info .naslov-ikonica::after {
+        right: -15px;
+        width: 125px;
+    }
+    #info .naslov-ikonica:hover::after {
+        width: 150px;
+        right: -32px;
+    }
+    .icon-text h1 {
+        font-size: 19px;
+    }
+    .teksst h1, .ltekst h1, .Htext h1 {
+        font-size: 18px;
+    }
+    .teksst h1{
+        margin: 0 0;
+    }
+    .cg-cg{
+        font-size: 17px !important;
+    }
+    @keyframes animateInfo {
+        0% {
+              height: 0px;
+              overflow: hidden;
+        }
+        100% {
+              height: 677px;
+              overflow: hidden;
+        }
+    }
+    @keyframes animateInfo2 {
+        0% {
+              height: 677px;
+              overflow: hidden;
+        }
+        100% {
+              height: 0px;
+              overflow: hidden;
+        }
+    }
+}
+@media screen and (max-width:510px){
+    .icon-text h1 {
+        font-size: 22px;
+    }
+    .teksst h1, .ltekst h1, .Htext h1 {
+        font-size: 20px;
+    }
+    .teksst h1{
+        margin: 0 0;
+    }
+    .line, .Lline {
+        margin-top: 4px;
+    }
+    .stars i, .starsI i {
+        font-size: 18px;
+    }
+    @keyframes animateInfo {
+        0% {
+              height: 0px;
+              overflow: hidden;
+        }
+        100% {
+              height: 709px;
+              overflow: hidden;
+        }
+    }
+    @keyframes animateInfo2 {
+        0% {
+              height: 709px;
+              overflow: hidden;
+        }
+        100% {
+              height: 0px;
+              overflow: hidden;
+        }
+    }
+}
+/* TELEFONI */
+
+@media screen and (max-width:440px){
+    #info .i-naslov {
+        font-size: 25px;
+    }
+    #info .naslov-ikonica::after {
+        right: -15px;
+        width: 95px;
+    }
+    #info .naslov-ikonica:hover::after {
+        width: 130px;
+        right: -32px;
+    }
+    .icon-text h1 {
+        font-size: 19px;
+    }
+    .teksst h1, .ltekst h1, .Htext h1 {
+        font-size: 16px;
+    }
+    .cg-cg{
+        font-size: 14px !important;
+    }
+    .icon-text i {
+        margin: 0px 0px 0px 18px;
+        font-size: 23px;
+    }
+    .stars i, .starsI i {
+        font-size: 16px;
+    }
+    .line {
+        height: 40px;
+    }
+    .Lline {
+        height: 105px;
+    }
+    .Hline {
+        height: 100px;
+    }
+    .line, .Lline {
+        margin-top: 4px;
+    }
+    .lopta {
+        width: 25px;
+        height: 25px;
+    }
+    .music, .pion {
+        width: 20px;
+        height: 20px;
+    }
+    @keyframes animateInfo {
+        0% {
+              height: 0px;
+              overflow: hidden;
+        }
+        100% {
+              height: 598px;
+              overflow: hidden;
+        }
+    }
+    @keyframes animateInfo2 {
+        0% {
+              height: 598px;
+              overflow: hidden;
+        }
+        100% {
+              height: 0px;
+              overflow: hidden;
+        }
+    }
+}
+@media screen and (max-width:400px){
+    #info .i-naslov {
+        font-size: 24px;
+        padding: 5px 0px 5px 32px;
+    }
+    #info .naslov-ikonica::after {
+        right: -15px;
+        width: 88px;
+    }
+    #info .naslov-ikonica:hover::after {
+        width: 120px;
+        right: -32px;
+    }
+}
+@media screen and (max-width:385px){
+    #info .i-naslov {
+        font-size: 23px;
+        padding: 5px 0px 5px 31px;
+    }
+}
+@media screen and (max-width:370px){
+    #info .i-naslov {
+        font-size: 22px;
+        padding: 5px 0px 5px 30px;
+    }
+}
+@media screen and (max-width:363px){
+    .icon-text i {
+        margin: 0px 0px 0px 19px;
+        font-size: 21px;
+    }
+    .icon-text h1 {
+        font-size: 18px;
+    }
+    .teksst h1, .ltekst h1, .Htext h1 {
+        font-size: 15px;
+    }
+    .cg-cg {
+        font-size: 14px !important;
+        position: absolute;
+        right: 12px;
+        bottom: 7px;
+    }
+    .nationality {
+        position: relative;
+    }
+    .nationality img[alt="flag"] {
+        width: 30px;
+        height: 30px;
+        margin-left: 11.5px;
+    }
+    .stars i, .starsI i {
+        font-size: 14px;
+    }
+    .line {
+        height: 35px;
+    }
+    .Lline{
+        height: 97px;
+    }
+    .Hline {
+        height: 95px;
+    }
+    @keyframes animateInfo {
+        0% {
+              height: 0px;
+              overflow: hidden;
+        }
+        100% {
+              height: 564px;
+              overflow: hidden;
+        }
+    }
+    @keyframes animateInfo2 {
+        0% {
+              height: 564px;
+              overflow: hidden;
+        }
+        100% {
+              height: 0px;
+              overflow: hidden;
+        }
+    }
+}
+@media screen and (max-width:355px){
+    #info .i-naslov {
+        font-size: 21px;
+        padding: 5px 0px 5px 29px;
+    }
+}
+@media screen and (max-width:340px){
+    #info .i-naslov {
+        font-size: 20px;
+        padding: 5px 0px 5px 28px;
+    }
+}
+@media screen and (max-width:327px){
+    .icon-text i {
+        margin: 0px 0px 0px 20px;
+        font-size: 17px;
+    }
+    .icon-text h1 {
+        font-size: 15px;
+    }
+    .teksst h1, .ltekst h1, .Htext h1 {
+        font-size: 13px;
+    }
+    .nationality {
+        position: relative;
+    }
+    .nationality img[alt="flag"] {
+        width: 25px;
+        height: 25px;
+        margin-left: 15px;
+    }
+    .ltekst h1 {
+        margin: 0 0 0 30px;
+    }
+    .stars i, .starsI i {
+        font-size: 12px;
+    }
+    .line {
+        height: 30px;
+    }
+    .Lline{
+        height: 90px;
+    }
+    .Hline {
+        height: 77px;
+    }
+    .lopta {
+        width: 20px;
+        height: 20px;
+    }
+    .music, .pion {
+        width: 16px;
+        height: 16px;
+    }
+    @keyframes animateInfo {
+        0% {
+              height: 0px;
+              overflow: hidden;
+        }
+        100% {
+              height: 504px;
+              overflow: hidden;
+        }
+    }
+    @keyframes animateInfo2 {
+        0% {
+              height: 504px;
+              overflow: hidden;
+        }
+        100% {
+              height: 0px;
+              overflow: hidden;
+        }
+    }
+}
+@media screen and (max-width:326px){
+    #info .i-naslov {
+        font-size: 19px;
+        padding: 5px 0px 5px 27px;
+    }
+}
+@media screen and (max-width:312px){
+    #info .i-naslov {
+        font-size: 18px;
+        padding: 5px 0px 5px 26px;
+    }
+}

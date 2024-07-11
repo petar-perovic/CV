@@ -1,0 +1,134 @@
+@media screen and (min-width:1410px){
+    #stack .s-naslov {
+        font-size: 38px;
+    }
+}
+@media screen and (min-width:1617px){
+    #stack .s-naslov {
+        font-size: 40px;
+    }
+    
+}
+@media screen and (max-width:1230px){
+    
+    #stack .s-naslov {
+        font-size: 32px;
+    }
+}
+@media screen and (max-width:1130px){
+   
+    #stack .s-naslov {
+        font-size: 29px;
+    }
+}
+@media screen and (max-width: 975px){
+    #stack .s-naslov {
+        font-size: 26px;
+        padding: 5px 0px 5px 36px;
+    }
+    #stack .naslov-ikonica:hover::after {
+        right: -30px;
+    }
+    #stack-level .card {
+        width: 240px;
+    }
+}
+@media screen and (max-width: 930px){
+    #stack-level{
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width:850px) and (min-width: 665px){
+    #stack .s-naslov {
+        font-size: 24px;
+        padding: 5px 0px 5px 30px;
+    }
+    #stack .naslov-ikonica:hover::after {
+        right: -26px;
+    }
+}
+@media screen and (max-width:664px){
+    #stack {
+        width: 83%;
+    }
+    #stack-level {     
+        width: 83%;
+    }
+    #stack .s-naslov {
+        font-size: 28px;
+    }
+    #stack .naslov-ikonica::after {
+        right: -15px;
+        width: 125px;
+    }
+    #stack .naslov-ikonica:hover::after {
+        width: 150px;
+        right: -32px;
+    }
+}
+
+/* TELEFONI */
+
+@media screen and (max-width:440px){
+    #stack .s-naslov {
+        font-size: 25px;
+    }
+    #stack .naslov-ikonica::after {
+        right: -15px;
+        width: 95px;
+    }
+    #stack .naslov-ikonica:hover::after {
+        width: 130px;
+        right: -32px;
+    }
+}
+@media screen and (max-width:400px){
+    #stack .s-naslov {
+        font-size: 24px;
+        padding: 5px 0px 5px 32px;
+    }
+    #stack .naslov-ikonica::after {
+        right: -15px;
+        width: 88px;
+    }
+    #stack .naslov-ikonica:hover::after {
+        width: 120px;
+        right: -32px;
+    }
+}
+@media screen and (max-width:385px){
+    #stack .s-naslov {
+        font-size: 23px;
+        padding: 5px 0px 5px 31px;
+    }
+}
+@media screen and (max-width:370px){
+    #stack .s-naslov {
+        font-size: 22px;
+        padding: 5px 0px 5px 30px;
+    }
+}
+@media screen and (max-width:355px){
+    #stack .s-naslov {
+        font-size: 21px;
+        padding: 5px 0px 5px 29px;
+    }
+}
+@media screen and (max-width:340px){
+    #stack .s-naslov {
+        font-size: 20px;
+        padding: 5px 0px 5px 28px;
+    }
+}
+@media screen and (max-width:326px){
+    #stack .s-naslov {
+        font-size: 19px;
+        padding: 5px 0px 5px 27px;
+    }
+}
+@media screen and (max-width:312px){
+    #stack .s-naslov {
+        font-size: 18px;
+        padding: 5px 0px 5px 26px;
+    }
+}

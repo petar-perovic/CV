@@ -1,0 +1,649 @@
+@media screen and (min-width:1410px){
+    #contact .c-naslov {
+        font-size: 38px;
+    }
+}
+@media screen and (min-width:1617px){
+    #contact .c-naslov {
+        font-size: 40px;
+    }
+    .lettering h1 {
+        font-size: 27px;
+    }
+    .lettering a {
+        font-size: 18px;
+    }
+    ul li {
+        width: 65px;
+        height: 65px;
+    }
+    ul li:before {
+        bottom: -11px;
+        height: 11px;
+    }
+    ul li:after {
+        left: -10px;
+        width: 10px;
+    }
+    ul li span {
+        font-size: 35px !important;
+    }
+}
+@media screen and (max-width:1230px){
+    
+    #contact .c-naslov {
+        font-size: 32px;
+    }
+}
+@media screen and (max-width:1130px){
+    #contact .c-naslov {
+        font-size: 29px;
+    }
+    ul {
+        margin-left: 0px;
+    }
+}
+@media screen and (max-width:1020px) and (min-width:851px){
+    #contact-level {
+        padding: 50px 0 30px 0;
+        height: 650px;
+    }
+    .lettering h1 {
+        margin: 0 0;
+        font-size: 21px;
+    }
+    .lettering a {
+        font-size: 15px;
+    }
+    .lettering {
+        margin: 60px 0 10px 10px;
+    }
+    ul {
+        width: 12%;
+        padding: 0 0 0 27px;
+    }
+    ul li {
+        width: 50px;
+        height: 50px;
+    }
+    ul li:before {
+        bottom: -8px;
+        height: 8px;
+    }
+    ul li:after {
+        left: -7.5px;
+        width: 7.5px;
+    }
+    ul li span {
+        font-size: 25px !important;
+    }
+    ul li:hover span:nth-child(5) {
+        transform: translate(33px, -33px);
+        opacity: 1;
+    }
+    
+    ul li:hover span:nth-child(4) {
+        transform: translate(25px, -25px);
+        opacity: 0.8;
+    }
+    
+    ul li:hover span:nth-child(3) {
+        transform: translate(16px, -16px);
+        opacity: 0.6;
+    }
+    
+    ul li:hover span:nth-child(2) {
+        transform: translate(8.5px, -8.5px);
+        opacity: 0.4;
+    }
+    
+    ul li:hover span:nth-child(1) {
+        transform: translate(0px, 0px);
+        opacity: 0.2;
+    }
+    @keyframes animateContact {
+        0% {
+              height: 0px;
+              overflow: hidden;
+        }
+        100% {
+              height: 650px;
+              overflow: hidden;
+        }
+    }
+    @keyframes animateContact2 {
+        0% {
+              height: 650px;
+              overflow: hidden;
+        }
+        100% {
+              height: 0px;
+              overflow: hidden;
+        }
+    }
+
+
+}
+@media screen and (max-width: 975px){
+    #contact .c-naslov {
+        font-size: 26px;
+        padding: 5px 0px 5px 36px;
+    }
+    #contact .naslov-ikonica:hover::after {
+        right: -30px;
+    }
+}
+@media screen and (max-width:850px) and (min-width: 665px){
+    #contact{
+        width: 67%;
+    }
+    #contact .naslov-ikonica::after {
+        width: 15.298682vw;
+    }
+    #contact .c-naslov {
+        font-size: 24px;
+        padding: 5px 0px 5px 30px;
+    }
+    #contact .naslov-ikonica:hover::after {
+        width: 19.641288433382138vw;
+        right: -4.9282576866764276vw;
+    }
+    #contact-level {
+        width: 67%;
+        padding: 45px 0 30px 0;
+        height: 550px;
+    }
+    .lettering h1 {
+        font-size: 18px;
+    }
+    .lettering a {
+        font-size: 13px;
+    }
+    .lettering {
+        margin: 52px 0 10px 20px;
+    }
+    ul {
+        width: 10%;
+        padding: 0 0 0 23px;
+    }
+    ul li {
+        width: 43px;
+        height: 43px;
+    }
+    ul li:before {
+        bottom: -7px;
+        height: 7px;
+    }
+    ul li:after {
+        left: -6.5px;
+        width: 6.5px;
+    }
+    ul li span {
+        font-size: 21px !important;
+    }
+    ul li:hover span:nth-child(5) {
+        transform: translate(28px, -28px);
+        opacity: 1;
+    }
+    
+    ul li:hover span:nth-child(4) {
+        transform: translate(21.5px, -21.5px);
+        opacity: 0.8;
+    }
+    
+    ul li:hover span:nth-child(3) {
+        transform: translate(13.5px, -13.5px);
+        opacity: 0.6;
+    }
+    
+    ul li:hover span:nth-child(2) {
+        transform: translate(7.5px, -7.5px);
+        opacity: 0.4;
+    }
+    
+    ul li:hover span:nth-child(1) {
+        transform: translate(0px, 0px);
+        opacity: 0.2;
+    }
+    @keyframes animateContact {
+        0% {
+              height: 0px;
+              overflow: hidden;
+        }
+        100% {
+              height: 550px;
+              overflow: hidden;
+        }
+    }
+    @keyframes animateContact2 {
+        0% {
+              height: 550px;
+              overflow: hidden;
+        }
+        100% {
+              height: 0px;
+              overflow: hidden;
+        }
+    }
+
+}
+@media screen and (max-width:850px) and (min-width:750px){
+    .lettering a {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:664px){
+    #contact{
+        width: 83%;
+    }
+    #contact-level {     
+        width: 83%;
+        padding: 50px 0 30px 0;
+        height: 650px;
+    }
+    #contact .c-naslov {
+        font-size: 28px;
+    }
+    #contact .naslov-ikonica::after {
+        right: -15px;
+        width: 125px;
+    }
+    #contact .naslov-ikonica:hover::after {
+        width: 150px;
+        right: -32px;
+    }
+    .lettering h1 {
+        margin: 0 0;
+        font-size: 21px;
+    }
+    .lettering a {
+        font-size: 15px;
+    }
+    .lettering {
+        margin: 60px 0 10px 10px;
+    }
+    ul {
+        width: 12%;
+        padding: 0 0 0 27px;
+    }
+    ul li {
+        width: 50px;
+        height: 50px;
+    }
+    ul li:before {
+        bottom: -8px;
+        height: 8px;
+    }
+    ul li:after {
+        left: -7.5px;
+        width: 7.5px;
+    }
+    ul li span {
+        font-size: 25px !important;
+    }
+    ul li:hover span:nth-child(5) {
+        transform: translate(33px, -33px);
+        opacity: 1;
+    }
+    
+    ul li:hover span:nth-child(4) {
+        transform: translate(25px, -25px);
+        opacity: 0.8;
+    }
+    
+    ul li:hover span:nth-child(3) {
+        transform: translate(16px, -16px);
+        opacity: 0.6;
+    }
+    
+    ul li:hover span:nth-child(2) {
+        transform: translate(8.5px, -8.5px);
+        opacity: 0.4;
+    }
+    
+    ul li:hover span:nth-child(1) {
+        transform: translate(0px, 0px);
+        opacity: 0.2;
+    }
+    @keyframes animateContact {
+        0% {
+              height: 0px;
+              overflow: hidden;
+        }
+        100% {
+              height: 650px;
+              overflow: hidden;
+        }
+    }
+    @keyframes animateContact2 {
+        0% {
+              height: 650px;
+              overflow: hidden;
+        }
+        100% {
+              height: 0px;
+              overflow: hidden;
+        }
+    }
+}
+@media screen and (max-width:630px){
+    .lettering {
+        margin: 60px 0 10px 15px;
+    }
+    .lettering h1 {
+        margin: 0 0;
+        font-size: 19px;
+    }
+    .lettering a {
+        font-size: 15px;
+        margin-right: 10px;
+    }
+}
+@media screen and (max-width:600px){
+    #contact-level {
+        padding: 45px 0 30px 0;
+        height: 550px;
+    }
+    .lettering h1 {
+        font-size: 18px;
+    }
+    .lettering a {
+        font-size: 13px;
+    }
+    .lettering {
+        margin: 52px 0 10px 20px;
+    }
+    ul {
+        width: 10%;
+        padding: 0 0 0 23px;
+    }
+    ul li {
+        width: 43px;
+        height: 43px;
+    }
+    ul li:before {
+        bottom: -7px;
+        height: 7px;
+    }
+    ul li:after {
+        left: -6.5px;
+        width: 6.5px;
+    }
+    ul li span {
+        font-size: 21px !important;
+    }
+    ul li:hover span:nth-child(5) {
+        transform: translate(28px, -28px);
+        opacity: 1;
+    }
+    
+    ul li:hover span:nth-child(4) {
+        transform: translate(21.5px, -21.5px);
+        opacity: 0.8;
+    }
+    
+    ul li:hover span:nth-child(3) {
+        transform: translate(13.5px, -13.5px);
+        opacity: 0.6;
+    }
+    
+    ul li:hover span:nth-child(2) {
+        transform: translate(7.5px, -7.5px);
+        opacity: 0.4;
+    }
+    
+    ul li:hover span:nth-child(1) {
+        transform: translate(0px, 0px);
+        opacity: 0.2;
+    }
+    @keyframes animateContact {
+        0% {
+              height: 0px;
+              overflow: hidden;
+        }
+        100% {
+              height: 550px;
+              overflow: hidden;
+        }
+    }
+    @keyframes animateContact2 {
+        0% {
+              height: 550px;
+              overflow: hidden;
+        }
+        100% {
+              height:  0px;
+              overflow: hidden;
+        }
+    }
+}
+@media screen and (max-width: 535px){
+    #contact-level {
+        padding: 40px 0 30px 0;
+        height: 520px;
+    }
+    .relative{
+        position: relative;
+    }
+    .absolute{
+        position: absolute;
+        top: 30px;
+        right: 2px;
+    }
+    .lettering {
+        margin: 52px 0 10px 25px;
+    }
+    .lettering h1 {
+        font-size: 17px;
+    }
+    .lettering a {
+        font-size: 13.5px;
+        margin-top: 0;
+    }
+    ul {
+        padding: 0 0 0 25px;
+    }
+    ul li {
+        width: 37px;
+        height: 37px;
+    }
+    ul li:before {
+        bottom: -6.5px;
+        height: 6.5px;
+    }
+    ul li:after {
+        left: -6px;
+        width: 6px;
+    }
+    ul li span {
+        font-size: 18px !important;
+    }
+    ul li:hover span:nth-child(5) {
+        transform: translate(24px, -24px);
+        opacity: 1;
+    }
+    
+    ul li:hover span:nth-child(4) {
+        transform: translate(18px, -18px);
+        opacity: 0.8;
+    }
+    
+    ul li:hover span:nth-child(3) {
+        transform: translate(12.5px, -12.5px);
+        opacity: 0.6;
+    }
+    
+    ul li:hover span:nth-child(2) {
+        transform: translate(6.5px, -6.5px);
+        opacity: 0.4;
+    }
+    
+    ul li:hover span:nth-child(1) {
+        transform: translate(0px, 0px);
+        opacity: 0.2;
+    }
+    @keyframes animateContact {
+        0% {
+              height: 0px;
+              overflow: hidden;
+        }
+        100% {
+              height: 520px;
+              overflow: hidden;
+        }
+    }
+    @keyframes animateContact2 {
+        0% {
+              height: 520px;
+              overflow: hidden;
+        }
+        100% {
+              height:  0px;
+              overflow: hidden;
+        }
+    }
+
+}
+
+/* TELEFONI */
+
+@media screen and (max-width:440px){
+    #contact .c-naslov {
+        font-size: 25px;
+    }
+    #contact .naslov-ikonica::after {
+        right: -15px;
+        width: 95px;
+    }
+    #contact .naslov-ikonica:hover::after {
+        width: 130px;
+        right: -32px;
+    }
+    .lettering a {
+        font-size: 13px;
+        margin-top: 0;
+    }
+}
+@media screen and (max-width:400px){
+    #contact .c-naslov {
+        font-size: 24px;
+        padding: 5px 0px 5px 32px;
+    }
+    #contact .naslov-ikonica::after {
+        right: -15px;
+        width: 88px;
+    }
+    #contact .naslov-ikonica:hover::after {
+        width: 120px;
+        right: -32px;
+    }
+    .lettering h1 {
+        font-size: 17px;
+    }
+    .lettering a {
+        font-size: 12px;
+    }
+    .lettering {
+        margin: 52px 0 10px 27px;
+    }
+}
+@media screen and (max-width:385px){
+    #contact .c-naslov {
+        font-size: 23px;
+        padding: 5px 0px 5px 31px;
+    }
+}
+@media screen and (max-width:375px){
+    #contact-level {
+        height: 500px;
+    }
+    .lettering a {
+        font-size: 11px;
+    }
+    .lettering {
+        margin: 50px 0 10px 27px;
+    }
+    @keyframes animateContact {
+        0% {
+              height: 0px;
+              overflow: hidden;
+        }
+        100% {
+              height: 500px;
+              overflow: hidden;
+        }
+    }
+    @keyframes animateContact2 {
+        0% {
+              height: 500px;
+              overflow: hidden;
+        }
+        100% {
+              height:  0px;
+              overflow: hidden;
+        }
+    }
+}
+@media screen and (max-width:370px){
+    #contact .c-naslov {
+        font-size: 22px;
+        padding: 5px 0px 5px 30px;
+    }
+}
+@media screen and (max-width:355px){
+    #contact .c-naslov {
+        font-size: 21px;
+        padding: 5px 0px 5px 29px;
+    }
+    ul li {
+        width: 34px;
+        height: 34px;
+    }
+    ul li:before {
+        bottom: -5.5px;
+        height: 5.5px;
+    }
+    ul li:after {
+        left: -5px;
+        width: 5px;
+    }
+    ul li span {
+        font-size: 17px !important;
+    }
+    .lettering h1 {
+        font-size: 16px;
+    }
+    .lettering a {
+        font-size: 10px;
+    }
+}
+@media screen and (max-width:340px){
+    #contact .c-naslov {
+        font-size: 20px;
+        padding: 5px 0px 5px 28px;
+    }
+    .lettering a {
+        font-size: 9px;
+    }
+}
+@media screen and (max-width:326px){
+    #contact .c-naslov {
+        font-size: 19px;
+        padding: 5px 0px 5px 27px;
+    }
+}
+@media screen and (max-width:320px){
+    .lettering h1 {
+        font-size: 15px;
+    }
+    .lettering a {
+        font-size: 9px;
+        margin-right: 3px;
+    }
+}
+@media screen and (max-width:312px){
+    #contact .c-naslov {
+        font-size: 18px;
+        padding: 5px 0px 5px 26px;
+    }
+}

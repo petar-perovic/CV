@@ -1,0 +1,261 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+#stack {
+    width: 78%;
+    margin: 20px auto 0;
+}
+
+#stack .s-naslov {
+    z-index: 100;
+    padding: 5px 0px 5px 40px;
+    font-size: 33px;
+}
+
+#stack .naslov-ikonica::after {
+    content: '';
+    position: absolute;
+    transform: skewX(30deg);
+    right: -1.0980966325036603vw;
+    width: 17.715959004392385vw;
+    height: 100px;
+    background-color: #122936;
+    transition: 0.5s;
+}
+
+#stack .naslov-ikonica:hover::after {
+    width: 17.569546120058565vw;
+    right: -2.9282576866764276vw;
+    transform: skewX(120deg);
+}
+
+#stack-level {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 78%;
+    margin: -30px auto 0;
+    padding: 60px 0 35px 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 18px;
+    font-family: 'Roboto', sans-serif;
+    animation: animateStack;
+    animation-duration: 0.8s;
+}
+
+#stack-level h2 {
+    margin: 0 0;
+}
+
+#stack-level .card {
+    margin: 0 3px 10px;
+    position: relative;
+    width: 250px;
+    background: linear-gradient(0deg, #1b1b1b, #222, #1b1b1b);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    border-radius: 4px;
+    text-align: center;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+#stack-level .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 1);
+}
+
+#stack-level .card:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -50%;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, .03);
+    pointer-events: none;
+    z-index: 300;
+}
+
+.percent {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    background: #222;
+    border-radius: 50%;
+    box-shadow: inset 0 0 50px #000000;
+    z-index: 1000;
+}
+
+.percent .number {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.percent .number h2 {
+    color: #777;
+    font-weight: 700;
+    font-size: 40px;
+    transition: 0.5s;
+}
+
+.card:hover .percent .number h2 {
+    color: #ffffff;
+    font-size: 60px;
+}
+
+.percent .number h2 span {
+    font-size: 24px;
+    color: #777;
+}
+
+.card:hover .percent .number h2 span {
+    color: #ffffff;
+    transition: 0.5s;
+}
+
+.stack-text {
+    position: relative;
+    color: #777;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.margina {
+    margin-top: 20px !important;
+}
+
+.card:hover .stack-text {
+    color: #ffffff;
+}
+
+svg {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    z-index: 1000;
+}
+
+svg circle {
+    width: 100%;
+    height: 100%;
+    fill: none;
+    stroke: #191919;
+    stroke-width: 10;
+    stroke-linecap: round;
+    transform: translate(5px, 5px);
+}
+
+#stack-level .number img{
+    width: 90px;
+}
+
+svg circle:nth-child(2) {
+    stroke-dasharray: 440;
+    stroke-dashoffset: 440;
+}
+
+.card:nth-child(1) svg circle:nth-child(2) { /*C++*/
+    stroke-dashoffset: calc(440 - (440 * 90) / 100); 
+    stroke: #00ff43;
+    animation: animateCplus;
+    animation-duration: 1s;
+}
+
+.card:nth-child(2) svg circle:nth-child(2) {/*C*/
+    stroke-dashoffset: calc(440 - (440 * 85) / 100);
+    stroke: #00ff43;
+    animation: animateC;
+    animation-duration: 1s;
+}
+
+.card:nth-child(3) svg circle:nth-child(2) {/*C#*/
+    stroke-dashoffset: calc(440 - (440 * 75) / 100);
+    stroke: #00a1ff;
+    animation: animateCs;
+    animation-duration: 1s;
+}
+.card:nth-child(4) svg circle:nth-child(2) {/*Java*/
+    stroke-dashoffset: calc(440 - (440 * 90) / 100);
+    stroke: #00ff43;
+    animation: animateJava;
+    animation-duration: 1s;
+}
+
+.card:nth-child(5) svg circle:nth-child(2) {/*Python*/
+    stroke-dashoffset: calc(440 - (440 * 85) / 100);
+    stroke: #00ff43;
+    animation: animatePy;
+    animation-duration: 1s;
+}
+
+.card:nth-child(6) svg circle:nth-child(2) {/*PHP*/
+    stroke-dashoffset: calc(440 - (440 * 75) / 90);
+    stroke: #00a1ff;
+    animation: animatePhp;
+    animation-duration: 1s;
+}
+.card:nth-child(7) svg circle:nth-child(2) {/*JS*/
+    stroke-dashoffset: calc(440 - (440 * 90) / 100);
+    stroke: #00ff43;
+    animation: animateJs;
+    animation-duration: 1s;
+}
+
+.card:nth-child(8) svg circle:nth-child(2) {/*HTML*/
+    stroke-dashoffset: calc(440 - (440 * 100) / 100);
+    stroke: #00ff43;
+    animation: animateHtml;
+    animation-duration: 1s;
+}
+
+.card:nth-child(9) svg circle:nth-child(2) {/*CSS*/
+    stroke-dashoffset: calc(440 - (440 * 95) / 100);
+    stroke: #00ff43;
+    animation: animateCss;
+    animation-duration: 1s;
+}
+.card:nth-child(10) svg circle:nth-child(2) {/*Postgres*/
+    stroke-dashoffset: calc(440 - (440 * 90) / 100);
+    stroke: #00ff43;
+    animation: animatepsql;
+    animation-duration: 1s;
+}
+
+.card:nth-child(11) svg circle:nth-child(2) {/*mssql*/
+    stroke-dashoffset: calc(440 - (440 * 80) / 100);
+    stroke: #00a1ff;
+    animation: animatemssql;
+    animation-duration: 1s;
+}
+
+.card:nth-child(12) svg circle:nth-child(2) {/*mysql*/
+    stroke-dashoffset: calc(440 - (440 * 60) / 100);
+    stroke: #ff04f7;
+    animation: animatemysql;
+    animation-duration: 1s;
+}
+.card:nth-child(13) svg circle:nth-child(2) {/*vs .net aps*/
+    stroke-dashoffset: calc(440 - (440 * 80) / 100);
+    stroke: #00ff43;
+    animation: animatevs;
+    animation-duration: 1s;
+}
+
+.card:nth-child(14) svg circle:nth-child(2) {/*React*/
+    stroke-dashoffset: calc(440 - (440 * 60) / 100);
+    stroke: #ff04f7;
+    animation: animatereact;
+    animation-duration: 1s;
+}

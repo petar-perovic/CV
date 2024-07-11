@@ -1,0 +1,200 @@
+  /*INFO*/
+  
+  @keyframes animateInfo {
+      0% {
+          height: 0px;
+          overflow: hidden;
+      }
+      100% {
+          height: 735px;
+          overflow: hidden;
+      }
+  }
+  
+  @keyframes animateInfo2 {
+      0% {
+          height: 735px;
+          overflow: hidden;
+      }
+      100% {
+          height: 0px;
+          overflow: hidden;
+      }
+  }
+  /*EDUCATION*/
+  
+  @keyframes animateEdu {
+      0% {
+          height: 0px;
+          overflow: hidden;
+      }
+      100% {
+          height: 670px;
+          overflow: hidden;
+      }
+  }
+  @keyframes animateEdu2 {
+    0% {
+        height: 670px;
+        overflow: hidden;
+    }
+    100% {
+        height: 0px;
+        overflow: hidden;
+    }
+}
+  /*CONTACT*/
+  
+  @keyframes animateContact {
+      0% {
+          height: 0px;
+          overflow: hidden;
+      }
+      100% {
+          height: 820px;
+          overflow: hidden;
+      }
+  }
+  
+  @keyframes animateContact2 {
+      0% {
+          height: 820px;
+          overflow: hidden;
+      }
+      100% {
+          height: 0px;
+          overflow: hidden;
+      }
+  }
+  /*STACK*/
+  
+  @keyframes animateStack {
+      0% {
+          width: 0px;
+      }
+      100% {
+          width: 78%;
+      }
+  }
+
+  @keyframes animateStack2 {
+    0% {
+        width:78%;
+    }
+    100% {
+        width: 0px;
+    }
+}
+
+  
+
+@keyframes animateCplus {
+    0% {
+        stroke-dashoffset: 440;
+    }
+    100% {
+        stroke-dashoffset: 44;
+    }
+}
+@keyframes animateC {
+    0% {
+        stroke-dashoffset: 440;
+    }
+    100% {
+        stroke-dashoffset: 66;
+    }
+}
+@keyframes animateCs {
+    0% {
+        stroke-dashoffset: 440;
+    }
+    100% {
+        stroke-dashoffset: 110;
+    }
+}@keyframes animateJava {
+    0% {
+        stroke-dashoffset: 440;
+    }
+    100% {
+        stroke-dashoffset: 44;
+    }
+}@keyframes animatePy {
+    0% {
+        stroke-dashoffset: 440;
+    }
+    100% {
+        stroke-dashoffset: 66;
+    }
+}@keyframes animatePhp {
+    0% {
+        stroke-dashoffset: 440;
+    }
+    100% {
+        stroke-dashoffset: 110;
+    }
+}@keyframes animateJs {
+    0% {
+        stroke-dashoffset: 440;
+    }
+    100% {
+        stroke-dashoffset: 44;
+    }
+}@keyframes animateHtml {
+    0% {
+        stroke-dashoffset: 440;
+    }
+    100% {
+        stroke-dashoffset: 0;
+    }
+}@keyframes animateCss {
+    0% {
+        stroke-dashoffset: 440;
+    }
+    100% {
+        stroke-dashoffset: 22;
+    }
+}
+
+@keyframes animatepsql {
+    0% {
+        stroke-dashoffset: 440;
+    }
+    100% {
+        stroke-dashoffset: 44;
+    }
+}@keyframes animatemssql {
+    0% {
+        stroke-dashoffset: 440;
+    }
+    100% {
+        stroke-dashoffset: 88;
+    }
+}
+@keyframes animatemysql {
+    0% {
+        stroke-dashoffset: 440;
+    }
+    100% {
+        stroke-dashoffset: 176;
+    }
+}
+
+  @keyframes animatevs {
+      0% {
+          stroke-dashoffset: 440;
+      }
+      100% {
+          stroke-dashoffset: 88;
+      }
+  }
+  
+  @keyframes animatereact {
+      0% {
+          stroke-dashoffset: 440;
+      }
+      100% {
+          stroke-dashoffset: 176;
+      }
+  }
+  
+

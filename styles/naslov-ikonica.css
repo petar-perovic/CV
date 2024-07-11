@@ -1,0 +1,31 @@
+.naslov-ikonica {
+    /* height: 60px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    cursor: pointer;
+    border-radius: 18px;
+    background-color: #2196f3;
+    z-index: 2000;
+    overflow: hidden;
+    /* box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.8); */
+    box-shadow: inset 4px 4px 5px rgba(255, 255, 255, 0.3), inset -4px -4px 5px rgba(0, 0, 0, 0.3), 0 0 10px 5px rgba(0, 0, 0, 0.8);
+}
+
+.naslov-ikonica::after {
+    content: '';
+    position: absolute;
+    transform: skewX(30deg);
+    right: -40px;
+    width: 120px;
+    height: 100px;
+    background-color: #122936;
+    transition: 0.5s;
+}
+
+.naslov-ikonica:hover::after {
+    width: 200px;
+    right: -40px;
+    transform: skewX(120deg);
+}

@@ -1,0 +1,673 @@
+@media screen and (min-width:1410px) {
+    #education .e-naslov {
+        font-size: 38px;
+    }
+}
+
+@media screen and (min-width:1617px) {
+    #education .e-naslov {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width:1324px) {
+    @keyframes animateEdu {
+        0% {
+            height: 0px;
+            overflow: hidden;
+        }
+        100% {
+            height: 701px;
+            overflow: hidden;
+        }
+    }
+    @keyframes animateEdu2 {
+        0% {
+            height: 701px;
+            overflow: hidden;
+        }
+        100% {
+            height: 0px;
+            overflow: hidden;
+        }
+    }
+}
+
+@media screen and (max-width:1230px) {
+    #education .e-naslov {
+        font-size: 32px;
+    }
+}
+
+@media screen and (max-width:1141px) {
+    @keyframes animateEdu {
+        0% {
+            height: 0px;
+            overflow: hidden;
+        }
+        100% {
+            height: 756px;
+            overflow: hidden;
+        }
+    }
+    @keyframes animateEdu2 {
+        0% {
+            height: 756px;
+            overflow: hidden;
+        }
+        100% {
+            height: 0px;
+            overflow: hidden;
+        }
+    }
+}
+
+@media screen and (max-width:1130px) {
+    #education .e-naslov {
+        font-size: 29px;
+    }
+}
+
+@media screen and (max-width: 1030px) {
+    .school-item p:nth-child(1) {
+        font-size: 17px;
+    }
+    .circle1 {
+        width: 13px;
+        height: 13px;
+        top: 4px;
+    }
+    .school-text p:nth-child(1) {
+        font-size: 16px;
+    }
+    .school-text p:nth-child(2) {
+        font-size: 15px;
+    }
+    #education-level a {
+        font-size: 15px;
+    }
+    #education-level i {
+        font-size: 15px;
+    }
+    .mg-top2 {
+        margin-top: 30px;
+    }
+    .mg-btm2 {
+        margin-bottom: 30px;
+    }
+    .date img {
+        width: 90px;
+        margin-bottom: 10px;
+    }
+    img[alt='primary-school'],
+    img[alt='high-school'] {
+        margin-left: 10px;
+        width: 80px;
+    }
+    @keyframes animateEdu {
+        0% {
+            height: 0px;
+            overflow: hidden;
+        }
+        100% {
+            height: 610px;
+            overflow: hidden;
+        }
+    }
+    @keyframes animateEdu2 {
+        0% {
+            height: 610px;
+            overflow: hidden;
+        }
+        100% {
+            height: 0px;
+            overflow: hidden;
+        }
+    }
+}
+
+@media screen and (max-width: 975px) {
+    #education .e-naslov {
+        font-size: 26px;
+        padding: 5px 0px 5px 36px;
+    }
+    #education .naslov-ikonica:hover::after {
+        right: -30px;
+    }
+}
+
+@media screen and (max-width: 918px) {
+    @keyframes animateEdu {
+        0% {
+            height: 0px;
+            overflow: hidden;
+        }
+        100% {
+            height: 627px;
+            overflow: hidden;
+        }
+    }
+    @keyframes animateEdu2 {
+        0% {
+            height: 627px;
+            overflow: hidden;
+        }
+        100% {
+            height: 0px;
+            overflow: hidden;
+        }
+    }
+}
+
+@media screen and (max-width:850px) and (min-width: 665px) {
+    #education .e-naslov {
+        font-size: 24px;
+        padding: 5px 0px 5px 30px;
+    }
+    #education .naslov-ikonica:hover::after {
+        right: -26px;
+    }
+}
+
+@media screen and (max-width: 832px) {
+    @keyframes animateEdu {
+        0% {
+            height: 0px;
+            overflow: hidden;
+        }
+        100% {
+            height: 497px;
+            overflow: hidden;
+        }
+    }
+    @keyframes animateEdu2 {
+        0% {
+            height: 497px;
+            overflow: hidden;
+        }
+        100% {
+            height: 0px;
+            overflow: hidden;
+        }
+    }
+}
+
+@media screen and (max-width:800px) and (min-width: 665px) {
+    .school-item p:nth-child(1) {
+        font-size: 15px;
+    }
+    .circle1 {
+        width: 12px;
+        height: 12px;
+    }
+    .school-text p:nth-child(1) {
+        font-size: 14px;
+    }
+    .school-text p:nth-child(2) {
+        font-size: 13px;
+    }
+    #education-level a {
+        font-size: 13px;
+    }
+    #education-level i {
+        font-size: 14px;
+    }
+    .mg-top2 {
+        margin-top: 25px;
+    }
+    .mg-btm2 {
+        margin-bottom: 25px;
+    }
+    img[alt='primary-school'],
+    img[alt='high-school'] {
+        width: 70px;
+        margin: 10px 0 0 10px;
+    }
+    .date img {
+        width: 80px;
+        margin-bottom: 10px;
+    }
+    @keyframes animateEdu {
+        0% {
+            height: 0px;
+            overflow: hidden;
+        }
+        100% {
+            height: 548px;
+            overflow: hidden;
+        }
+    }
+    @keyframes animateEdu2 {
+        0% {
+            height: 548px;
+            overflow: hidden;
+        }
+        100% {
+            height: 0px;
+            overflow: hidden;
+        }
+    }
+}
+
+@media screen and (max-width:749px) {
+    @keyframes animateEdu {
+        0% {
+            height: 0px;
+            overflow: hidden;
+        }
+        100% {
+            height: 548px;
+            overflow: hidden;
+        }
+    }
+    @keyframes animateEdu2 {
+        0% {
+            height: 548px;
+            overflow: hidden;
+        }
+        100% {
+            height: 0px;
+            overflow: hidden;
+        }
+    }
+}
+
+@media screen and (max-width:675px) and (min-width: 665px) {
+    .school-text p:nth-child(1) {
+        font-size: 13px;
+    }
+    @keyframes animateEdu {
+        0% {
+            height: 0px;
+            overflow: hidden;
+        }
+        100% {
+            height: 569px;
+            overflow: hidden;
+        }
+    }
+    @keyframes animateEdu2 {
+        0% {
+            height: 569px;
+            overflow: hidden;
+        }
+        100% {
+            height: 0px;
+            overflow: hidden;
+        }
+    }
+}
+
+@media screen and (max-width:664px) {
+    #education {
+        width: 83%;
+    }
+    #education-level {
+        width: 83%;
+    }
+    #education .e-naslov {
+        font-size: 28px;
+    }
+    #education .naslov-ikonica::after {
+        right: -15px;
+        width: 125px;
+    }
+    #education .naslov-ikonica:hover::after {
+        width: 150px;
+        right: -32px;
+    }
+    @keyframes animateEdu {
+        0% {
+            height: 0px;
+            overflow: hidden;
+        }
+        100% {
+            height: 610px;
+            overflow: hidden;
+        }
+    }
+    @keyframes animateEdu2 {
+        0% {
+            height: 610px;
+            overflow: hidden;
+        }
+        100% {
+            height: 0px;
+            overflow: hidden;
+        }
+    }
+}
+
+@media screen and (max-width:614px) {
+    @keyframes animateEdu {
+        0% {
+            height: 0px;
+            overflow: hidden;
+        }
+        100% {
+            height: 627px;
+            overflow: hidden;
+        }
+    }
+    @keyframes animateEdu2 {
+        0% {
+            height:  627px;
+            overflow: hidden;
+        }
+        100% {
+            height: 0px;
+            overflow: hidden;
+        }
+    }
+}
+
+@media screen and (max-width:557px) {
+    @keyframes animateEdu {
+        0% {
+            height: 0px;
+            overflow: hidden;
+        }
+        100% {
+            height: 653px;
+            overflow: hidden;
+        }
+    }
+    @keyframes animateEdu2 {
+        0% {
+            height: 653px;
+            overflow: hidden;
+        }
+        100% {
+            height: 0px;
+            overflow: hidden;
+        }
+    }
+}
+
+@media screen and (max-width:521px) {
+    .school-item p:nth-child(1) {
+        font-size: 15px;
+    }
+    .circle1 {
+        width: 12px;
+        height: 12px;
+    }
+    .school-text p:nth-child(1) {
+        font-size: 14px;
+    }
+    .school-text p:nth-child(2) {
+        font-size: 13px;
+    }
+    #education-level a {
+        font-size: 13px;
+    }
+    #education-level i {
+        font-size: 14px;
+    }
+    .mg-top2 {
+        margin-top: 25px;
+    }
+    .mg-btm2 {
+        margin-bottom: 25px;
+    }
+    img[alt='primary-school'],
+    img[alt='high-school'] {
+        width: 70px;
+        margin: 10px 0 0 10px;
+    }
+    .date img {
+        width: 80px;
+        margin-bottom: 10px;
+    }
+    @keyframes animateEdu {
+        0% {
+            height: 0px;
+            overflow: hidden;
+        }
+        100% {
+            height: 548px;
+            overflow: hidden;
+        }
+    }
+    @keyframes animateEdu2 {
+        0% {
+            height: 548px;
+            overflow: hidden;
+        }
+        100% {
+            height: 0px;
+            overflow: hidden;
+        }
+    }
+}
+
+@media screen and (max-width:501px) {
+    @keyframes animateEdu {
+        0% {
+            height: 0px;
+            overflow: hidden;
+        }
+        100% {
+            height: 548px;
+            overflow: hidden;
+        }
+    }
+    @keyframes animateEdu2 {
+        0% {
+            height: 548px;
+            overflow: hidden;
+        }
+        100% {
+            height: 0px;
+            overflow: hidden;
+        }
+    }
+}
+
+@media screen and (max-width:455px) {
+    .school-text p:nth-child(1) {
+        font-size: 13px;
+    }
+}
+
+
+/* TELEFONI */
+
+@media screen and (max-width:440px) {
+    #education-level {
+        padding: 30px 1px 30px;
+    }
+    #education-level p {
+        text-align: center;
+    }
+    #education .e-naslov {
+        font-size: 25px;
+    }
+    #education .naslov-ikonica::after {
+        right: -15px;
+        width: 95px;
+    }
+    #education .naslov-ikonica:hover::after {
+        width: 130px;
+        right: -32px;
+    }
+    .school-item {
+        flex-direction: column;
+        align-items: center;
+        border-bottom: 2px solid #fff;
+        margin-top: 10px;
+    }
+    .no-border {
+        border: none;
+    }
+    .line-circle {
+        display: none;
+    }
+    .date img {
+        margin: 0 0 !important;
+    }
+    .school-text {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .school-text p:nth-child(1) {
+        font-size: 14px;
+    }
+    @keyframes animateEdu {
+        0% {
+            height: 0px;
+            overflow: hidden;
+        }
+        100% {
+            height: 941px;
+            overflow: hidden;
+        }
+    }
+    @keyframes animateEdu2 {
+        0% {
+            height: 941px;
+            overflow: hidden;
+        }
+        100% {
+            height: 0px;
+            overflow: hidden;
+        }
+    }
+}
+
+@media screen and (max-width:423px) {
+    .stampar {
+        font-size: 13px !important;
+    }
+}
+
+@media screen and (max-width:394px) {
+    .stampar {
+        font-size: 12px !important;
+    }
+}
+
+@media screen and (max-width:365px) {
+    .stampar {
+        font-size: 11px !important;
+    }
+    .school-text p:nth-child(1) {
+        font-size: 13px;
+    }
+    @keyframes animateEdu {
+        0% {
+            height: 0px;
+            overflow: hidden;
+        }
+        100% {
+            height: 957px;
+            overflow: hidden;
+        }
+    }
+    @keyframes animateEdu2 {
+        0% {
+            height: 957px;
+            overflow: hidden;
+        }
+        100% {
+            height: 0px;
+            overflow: hidden;
+        }
+    }
+}
+
+@media screen and (max-width:336px) {
+    .stampar {
+        font-size: 10px !important;
+    }
+    .school-text p:nth-child(1) {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:307px) {
+    .stampar {
+        font-size: 9px !important;
+    }
+    .school-text p:nth-child(1) {
+        font-size: 11px;
+    }
+    @keyframes animateEdu {
+        0% {
+            height: 0px;
+            overflow: hidden;
+        }
+        100% {
+            height: 942px;
+            overflow: hidden;
+        }
+    }
+    @keyframes animateEdu2 {
+        0% {
+            height: 942px;
+            overflow: hidden;
+        }
+        100% {
+            height: 0px;;
+            overflow: hidden;
+        }
+    }
+}
+
+@media screen and (max-width:400px) {
+    #education .e-naslov {
+        font-size: 24px;
+        padding: 5px 0px 5px 32px;
+    }
+    #education .naslov-ikonica::after {
+        right: -15px;
+        width: 88px;
+    }
+    #education .naslov-ikonica:hover::after {
+        width: 120px;
+        right: -32px;
+    }
+}
+
+@media screen and (max-width:385px) {
+    #education .e-naslov {
+        font-size: 23px;
+        padding: 5px 0px 5px 31px;
+    }
+}
+
+@media screen and (max-width:370px) {
+    #education .e-naslov {
+        font-size: 22px;
+        padding: 5px 0px 5px 30px;
+    }
+}
+
+@media screen and (max-width:355px) {
+    #education .e-naslov {
+        font-size: 21px;
+        padding: 5px 0px 5px 29px;
+    }
+}
+
+@media screen and (max-width:340px) {
+    #education .e-naslov {
+        font-size: 20px;
+        padding: 5px 0px 5px 28px;
+    }
+}
+
+@media screen and (max-width:326px) {
+    #education .e-naslov {
+        font-size: 19px;
+        padding: 5px 0px 5px 27px;
+    }
+}
+
+@media screen and (max-width:312px) {
+    #education .e-naslov {
+        font-size: 18px;
+        padding: 5px 0px 5px 26px;
+    }
+}

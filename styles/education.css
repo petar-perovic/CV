@@ -1,0 +1,114 @@
+#education {
+    width: 55%;
+    margin: 20px auto 0;
+}
+
+#education .e-naslov {
+    z-index: 100;
+    padding: 5px 0px 5px 40px;
+    font-size: 33px;
+}
+
+#education .naslov-ikonica::after {
+    content: '';
+    position: absolute;
+    transform: skewX(30deg);
+    right: -1.0980966325036603vw;
+    width: 13.103953147877013vw;
+    height: 100px;
+    background-color: #122936;
+    transition: 0.5s;
+}
+
+#education .naslov-ikonica:hover::after {
+    width: 15.373352855051245vw;
+    right: -2.9282576866764276vw;
+    transform: skewX(120deg);
+}
+
+#education-level {
+    flex-direction: column;
+    justify-content: space-around;
+    width: 55%;
+    margin: -30px auto 0;
+    padding: 60px 0 30px;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 18px;
+    animation-name: animateEdu;
+    animation-duration: 1s;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+
+#education-level a {
+    color: #fff;
+    font-size: 18px;
+    margin-top: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#education-level p {
+    margin: 0 0;
+}
+
+#education-level i {
+    margin-right: 7px;
+}
+
+.line-circle {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    position: relative;
+    margin-left: 30px;
+}
+
+.line1 {
+    width: 4px;
+    background-color: #fff;
+}
+
+.circle1 {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    position: absolute;
+    top: 5px;
+    background-color: #050d10;
+}
+
+.school-item p:nth-child(1) {
+    font-size: 21px;
+}
+
+.school-text p:nth-child(1) {
+    font-size: 21px;
+}
+
+.school-text p:nth-child(2) {
+    font-size: 18px;
+}
+
+.date {
+    margin: 0 20px;
+}
+
+.date img {
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+img[alt='high-school'] {
+    margin-left: 10px;
+    margin-right: 0px;
+    border-radius: 50%;
+    border: 3px solid rgba(0, 0, 0, 0.4);
+}
+
+img[alt='primary-school'] {
+    margin-left: 10px;
+    margin-right: 28px;
+    border-radius: 50%;
+    border: 3px solid rgba(0, 0, 0, 0.4);
+}
