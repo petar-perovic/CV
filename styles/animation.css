@@ -139,6 +139,13 @@
     100% {
         stroke-dashoffset: 44;
     }
+}@keyframes animateNode {
+    0% {
+        stroke-dashoffset: 440;
+    }
+    100% {
+        stroke-dashoffset: 44;
+    }
 }@keyframes animateHtml {
     0% {
         stroke-dashoffset: 440;
