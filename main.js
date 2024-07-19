@@ -8,6 +8,33 @@ var circles = document.querySelector('.container');
 wrapper.style.display = 'none';
 circles.style.display = 'none';
 
+var stackLevel = document.getElementById('stack-level');
+const skills = ['C++','C','C#','Java','Python','PHP','Javascript','Node.js','Html','CSS','PostgreSQL','MS SQL','MySQL','VS C# .NET apps','React','RabbitMQ'];
+const images = ['C++', 'c','csharp','java','python','php','js','node','html','css','postgresql','mssql','mysql','vs','react','rabbitmq'];
+
+skills.forEach((skill , index) => {
+    const div = document.createElement('div');
+    div.classList.add('card');
+    let src = 'slike/' + images[index] + '.png';
+    let name = skill;
+    div.innerHTML = ` <div class="box">
+                            <div class="percent">
+                                <svg>
+                                    <circle cx="70" cy="70" r="70"></circle>
+                                    <circle cx="70" cy="70" r="70"></circle>
+                                </svg>
+                                <div class="number">
+                                    <img src="${src}" alt="logo">
+                                </div>
+                            </div>
+                            <h2 class="stack-text margina">${name}</h2>
+                        </div>`;
+    stackLevel.appendChild(div);
+});
+
+
+
+
 function mojLoader() {
     myVar = setTimeout(showPage, 1950);
 }
