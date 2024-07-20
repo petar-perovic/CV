@@ -9,9 +9,9 @@ wrapper.style.display = 'none';
 circles.style.display = 'none';
 
 var stackLevel = document.getElementById('stack-level');
-const skills = ['C++','C','C#','Java','Python','PHP','Javascript','Node.js','Html','CSS','PostgreSQL','MS SQL','MySQL','VS C# .NET','React','RabbitMQ'];
-const images = ['C++', 'c','csharp','java','python','php','js','node','html','css','postgresql','mssql','mysql','vs','react','rabbitmq'];
-const percent = [90,85,75,90,85,75,90,90,100,95,90,80,60,80,60,60];
+const skills = ['C++','C','C#','Java','Python','PHP','Javascript','Node.js','Html','CSS','PostgreSQL','MS SQL','MySQL','VS C# .NET','React','RabbitMQ','Bash'];
+const images = ['C++', 'c','csharp','java','python','php','js','node','html','css','postgresql','mssql','mysql','vs','react','rabbitmq','bash'];
+const percent = [90,85,75,90,85,75,90,90,100,95,90,80,60,80,60,60,60];
 
 skills.forEach((skill , index) => {
     const div = document.createElement('div');
