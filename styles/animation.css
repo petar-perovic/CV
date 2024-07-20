@@ -88,7 +88,7 @@
 
   
 
-@keyframes animateCplus {
+@keyframes animate90 {
     0% {
         stroke-dashoffset: 440;
     }
@@ -96,7 +96,7 @@
         stroke-dashoffset: 44;
     }
 }
-@keyframes animateC {
+@keyframes animate85 {
     0% {
         stroke-dashoffset: 440;
     }
@@ -104,72 +104,28 @@
         stroke-dashoffset: 66;
     }
 }
-@keyframes animateCs {
+@keyframes animate75 {
     0% {
         stroke-dashoffset: 440;
     }
     100% {
         stroke-dashoffset: 110;
     }
-}@keyframes animateJava {
-    0% {
-        stroke-dashoffset: 440;
-    }
-    100% {
-        stroke-dashoffset: 44;
-    }
-}@keyframes animatePy {
-    0% {
-        stroke-dashoffset: 440;
-    }
-    100% {
-        stroke-dashoffset: 66;
-    }
-}@keyframes animatePhp {
-    0% {
-        stroke-dashoffset: 440;
-    }
-    100% {
-        stroke-dashoffset: 110;
-    }
-}@keyframes animateJs {
-    0% {
-        stroke-dashoffset: 440;
-    }
-    100% {
-        stroke-dashoffset: 44;
-    }
-}@keyframes animateNode {
-    0% {
-        stroke-dashoffset: 440;
-    }
-    100% {
-        stroke-dashoffset: 44;
-    }
-}@keyframes animateHtml {
+}@keyframes animate100 {
     0% {
         stroke-dashoffset: 440;
     }
     100% {
         stroke-dashoffset: 0;
     }
-}@keyframes animateCss {
+}@keyframes animate95 {
     0% {
         stroke-dashoffset: 440;
     }
     100% {
         stroke-dashoffset: 22;
     }
-}
-
-@keyframes animatepsql {
-    0% {
-        stroke-dashoffset: 440;
-    }
-    100% {
-        stroke-dashoffset: 44;
-    }
-}@keyframes animatemssql {
+}@keyframes animate80 {
     0% {
         stroke-dashoffset: 440;
     }
@@ -177,7 +133,7 @@
         stroke-dashoffset: 88;
     }
 }
-@keyframes animatemysql {
+@keyframes animate60 {
     0% {
         stroke-dashoffset: 440;
     }
@@ -185,31 +141,3 @@
         stroke-dashoffset: 176;
     }
 }
-
-  @keyframes animatevs {
-      0% {
-          stroke-dashoffset: 440;
-      }
-      100% {
-          stroke-dashoffset: 88;
-      }
-  }
-  
-  @keyframes animatereact {
-      0% {
-          stroke-dashoffset: 440;
-      }
-      100% {
-          stroke-dashoffset: 176;
-      }
-  }
-  @keyframes animaterabbit {
-    0% {
-        stroke-dashoffset: 440;
-    }
-    100% {
-        stroke-dashoffset: 176;
-    }
-}
-
-

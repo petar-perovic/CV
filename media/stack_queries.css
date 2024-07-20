@@ -21,6 +21,118 @@
         font-size: 29px;
     }
 }
+@media screen and (max-width: 992px){
+    #stack-level .card {
+        width: 140px;
+        height: 140px;
+    }
+    .margina {
+        margin-top: 10px !important;
+        font-size: 16px;
+    }
+    .percent {
+        width: 80px;
+        height: 80px;
+    }
+    svg {
+        width: 80px;
+        height: 80px;
+    }
+    svg circle {
+        stroke-width: 5px;
+        transform: translate(4px, 4px);
+        cx: 36;
+        cy: 36;
+        r: 36;
+    }
+    svg .dash {
+        stroke-dasharray: 225;
+        stroke-dashoffset: 225;
+    }
+    #stack-level .number img {
+        width: 45px;
+    }
+    #stack-level .box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    svg .percent60{
+        stroke-dashoffset: calc(225 - (225 * 60) / 100);
+    }
+    svg .percent75{
+        stroke-dashoffset: calc(225 - (225 * 75) / 100);
+    }
+    svg .percent80{
+        stroke-dashoffset: calc(225 - (225 * 80) / 100);
+    }
+    svg .percent85{
+        stroke-dashoffset: calc(225 - (225 * 85) / 100);
+    }
+    svg .percent90{
+        stroke-dashoffset: calc(225 - (225 * 90) / 100);
+    }
+    svg .percent95{
+        stroke-dashoffset: calc(225 - (225 * 95) / 100);
+    }
+    svg .percent100{
+        stroke-dashoffset: calc(225 - (225 * 100) / 100);
+    }
+    @keyframes animate90 {
+        0% {
+            stroke-dashoffset: 225;
+        }
+        100% {
+            stroke-dashoffset: 22.5;
+        }
+    }
+    @keyframes animate85 {
+        0% {
+            stroke-dashoffset: 225;
+        }
+        100% {
+            stroke-dashoffset: 33.75;
+        }
+    }
+    @keyframes animate75 {
+        0% {
+            stroke-dashoffset: 225;
+        }
+        100% {
+            stroke-dashoffset: 56.25;
+        }
+    }@keyframes animate100 {
+        0% {
+            stroke-dashoffset: 225;
+        }
+        100% {
+            stroke-dashoffset: 0;
+        }
+    }@keyframes animate95 {
+        0% {
+            stroke-dashoffset: 225;
+        }
+        100% {
+            stroke-dashoffset: 11.25;
+        }
+    }@keyframes animate80 {
+        0% {
+            stroke-dashoffset: 225;
+        }
+        100% {
+            stroke-dashoffset: 45;
+        }
+    }
+    @keyframes animate60 {
+        0% {
+            stroke-dashoffset: 225;
+        }
+        100% {
+            stroke-dashoffset: 90;
+        }
+    }
+}
 @media screen and (max-width: 975px){
     #stack .s-naslov {
         font-size: 26px;
@@ -28,9 +140,6 @@
     }
     #stack .naslov-ikonica:hover::after {
         right: -30px;
-    }
-    #stack-level .card {
-        width: 240px;
     }
 }
 @media screen and (max-width: 930px){
