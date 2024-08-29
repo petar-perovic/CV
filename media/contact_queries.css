@@ -46,7 +46,7 @@
 @media screen and (max-width:1020px) and (min-width:851px){
     #contact-level {
         padding: 50px 0 30px 0;
-        height: 650px;
+        height: 340px;
     }
     .lettering h1 {
         margin: 0 0;
@@ -107,13 +107,13 @@
               overflow: hidden;
         }
         100% {
-              height: 650px;
+              height: 340px;
               overflow: hidden;
         }
     }
     @keyframes animateContact2 {
         0% {
-              height: 650px;
+              height: 340px;
               overflow: hidden;
         }
         100% {
@@ -151,7 +151,7 @@
     #contact-level {
         width: 67%;
         padding: 45px 0 30px 0;
-        height: 550px;
+        height: 290px;
     }
     .lettering h1 {
         font-size: 18px;
@@ -211,13 +211,13 @@
               overflow: hidden;
         }
         100% {
-              height: 550px;
+              height: 290px;
               overflow: hidden;
         }
     }
     @keyframes animateContact2 {
         0% {
-              height: 550px;
+              height: 290px;
               overflow: hidden;
         }
         100% {
@@ -239,7 +239,7 @@
     #contact-level {     
         width: 83%;
         padding: 50px 0 30px 0;
-        height: 650px;
+        height: 330px;
     }
     #contact .c-naslov {
         font-size: 28px;
@@ -311,13 +311,13 @@
               overflow: hidden;
         }
         100% {
-              height: 650px;
+              height: 330px;
               overflow: hidden;
         }
     }
     @keyframes animateContact2 {
         0% {
-              height: 650px;
+              height: 330px;
               overflow: hidden;
         }
         100% {
@@ -342,7 +342,7 @@
 @media screen and (max-width:600px){
     #contact-level {
         padding: 45px 0 30px 0;
-        height: 550px;
+        height: 300px;
     }
     .lettering h1 {
         font-size: 18px;
@@ -402,13 +402,13 @@
               overflow: hidden;
         }
         100% {
-              height: 550px;
+              height: 300px;
               overflow: hidden;
         }
     }
     @keyframes animateContact2 {
         0% {
-              height: 550px;
+              height: 300px;
               overflow: hidden;
         }
         100% {
@@ -420,7 +420,7 @@
 @media screen and (max-width: 535px){
     #contact-level {
         padding: 40px 0 30px 0;
-        height: 520px;
+        height: 260px;
     }
     .relative{
         position: relative;
@@ -488,13 +488,13 @@
               overflow: hidden;
         }
         100% {
-              height: 520px;
+              height: 260px;
               overflow: hidden;
         }
     }
     @keyframes animateContact2 {
         0% {
-              height: 520px;
+              height: 260px;
               overflow: hidden;
         }
         100% {
@@ -554,34 +554,11 @@
     }
 }
 @media screen and (max-width:375px){
-    #contact-level {
-        height: 500px;
-    }
     .lettering a {
         font-size: 11px;
     }
     .lettering {
         margin: 50px 0 10px 27px;
-    }
-    @keyframes animateContact {
-        0% {
-              height: 0px;
-              overflow: hidden;
-        }
-        100% {
-              height: 500px;
-              overflow: hidden;
-        }
-    }
-    @keyframes animateContact2 {
-        0% {
-              height: 500px;
-              overflow: hidden;
-        }
-        100% {
-              height:  0px;
-              overflow: hidden;
-        }
     }
 }
 @media screen and (max-width:370px){
